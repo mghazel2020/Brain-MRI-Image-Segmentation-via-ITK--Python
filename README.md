@@ -363,7 +363,7 @@ itk_tile_images_vector<span style="color:#808030; ">(</span><span style="color:#
                                      imgGrayMatterT2<span style="color:#808030; ">[</span><span style="color:#808030; ">:</span><span style="color:#808030; ">,</span><span style="color:#808030; ">:</span><span style="color:#808030; ">,</span>idxSlice<span style="color:#808030; ">]</span><span style="color:#808030; ">)</span><span style="color:#808030; ">]</span><span style="color:#808030; ">)</span>
 </pre>
 
-<img src="imaghes/uni-modal-segmentation.png" width="500" />
+<img src="images/uni-modal-segmentation.png" width="500" />
 
 ### 4.9. Step 9: Perform multi-modal segmentation:
 
@@ -399,7 +399,7 @@ itk_visualize<span style="color:#808030; ">(</span>SimpleITK<span style="color:#
 </pre>
 
 
-<img src="imaghes/multi-modal-segmentation.png" width="500" />
+<img src="images/multi-modal-segmentation.png" width="500" />
 
 #### 4.9.1. Observations:
 
