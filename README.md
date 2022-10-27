@@ -1,6 +1,6 @@
 # Brain MRI Image Segmentation via ITK in Python
 
-<img src="images/banner-002.jpg" width="500" />
+<img src="images/banner-002.jpg" width="1000" />
 
 ## 1. Objective
 
@@ -310,7 +310,7 @@ imgSeeds <span style="color:#808030; ">=</span> SimpleITK<span style="color:#808
 itk_visualize<span style="color:#808030; ">(</span>imgSeeds<span style="color:#808030; ">[</span><span style="color:#808030; ">:</span><span style="color:#808030; ">,</span> <span style="color:#808030; ">:</span><span style="color:#808030; ">,</span> idxSlice<span style="color:#808030; ">]</span><span style="color:#808030; ">,</span> <span style="color:#0000e6; ">"Selected Region-growing Seeds"</span><span style="color:#808030; ">)</span>
 </pre>
 
-<img src="images/seed-points-overlay.png" width="500" />
+<img src="images/seed-points-overlay.png" width="1000" />
 
 ### 4.8. Step 8: Uni-Modal Segmentation:
 
@@ -363,7 +363,7 @@ itk_tile_images_vector<span style="color:#808030; ">(</span><span style="color:#
                                      imgGrayMatterT2<span style="color:#808030; ">[</span><span style="color:#808030; ">:</span><span style="color:#808030; ">,</span><span style="color:#808030; ">:</span><span style="color:#808030; ">,</span>idxSlice<span style="color:#808030; ">]</span><span style="color:#808030; ">)</span><span style="color:#808030; ">]</span><span style="color:#808030; ">)</span>
 </pre>
 
-<img src="images/uni-modal-segmentation.png" width="500" />
+<img src="images/uni-modal-segmentation.png" width="1000" />
 
 ### 4.9. Step 9: Perform multi-modal segmentation:
 
@@ -399,7 +399,7 @@ itk_visualize<span style="color:#808030; ">(</span>SimpleITK<span style="color:#
 </pre>
 
 
-<img src="images/multi-modal-segmentation.png" width="500" />
+<img src="images/multi-modal-segmentation.png" width="1000" />
 
 #### 4.9.1. Observations:
 
